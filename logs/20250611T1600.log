@@ -1,0 +1,6 @@
+{"time":"2025-06-11T16:00:06.2509726+03:00","level":"INFO","msg":"Authorized to telegram","user name":"kolllaka_130324_bot"}
+{"time":"2025-06-11T16:00:14.3024471+03:00","level":"INFO","msg":"get message from telegram","message":[{"file_id":"AgACAgIAAyEFAASTjziuAANcaEl7YkrLf2bDvOWJ-6a9OjbLrx8AAhruMRvFXEhKkiBd6vGCrVQBAAMCAANzAAM2BA","file_unique_id":"AQADGu4xG8VcSEp4","width":90,"height":83,"file_size":1483},{"file_id":"AgACAgIAAyEFAASTjziuAANcaEl7YkrLf2bDvOWJ-6a9OjbLrx8AAhruMRvFXEhKkiBd6vGCrVQBAAMCAANtAAM2BA","file_unique_id":"AQADGu4xG8VcSEpy","width":320,"height":294,"file_size":22788},{"file_id":"AgACAgIAAyEFAASTjziuAANcaEl7YkrLf2bDvOWJ-6a9OjbLrx8AAhruMRvFXEhKkiBd6vGCrVQBAAMCAAN4AAM2BA","file_unique_id":"AQADGu4xG8VcSEp9","width":686,"height":631,"file_size":78682}]}
+{"time":"2025-06-11T16:00:14.347535+03:00","level":"INFO","msg":"message","message":{"ID":901754743,"User":{"ID":547725655,"UserName":"Kolllaka"},"Url":"https://api.telegram.org/file/bot7078305288:AAHwPhCWtZLog9ng70SE5GK1rmCA34XbyAw/photos/file_14.jpg","Date":"2025-06-11T16:00:11+03:00"}}
+{"time":"2025-06-11T16:00:14.347535+03:00","level":"INFO","msg":"get photo message"}
+{"time":"2025-06-11T16:00:42.8459661+03:00","level":"INFO","msg":"get message from telegram","message":null}
+{"time":"2025-06-11T16:01:00.6871052+03:00","level":"INFO","msg":"stopping application","signal":"interrupt"}
