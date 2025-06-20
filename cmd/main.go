@@ -21,6 +21,13 @@ const (
 	LOGS_FOLDER   = "./logs"
 )
 
+func init() {
+	// create folder log
+	if err := os.MkdirAll(LOGS_FOLDER, os.FileMode(0644)); err != nil {
+		os.Exit(1)
+	}
+}
+
 func main() {
 	// env config init
 	envCfg := model.NewEnvConfig()
