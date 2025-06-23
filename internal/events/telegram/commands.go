@@ -2,7 +2,6 @@ package telegram
 
 import (
 	"strings"
-	"time"
 
 	"github.com/kolllaka/telegram_bot/internal/events"
 	"github.com/kolllaka/telegram_bot/internal/model"
@@ -52,7 +51,7 @@ func (p *processor) doPhotoCmd(event events.Event, meta Meta) error {
 			UserName: meta.User.Username,
 		},
 		Url:  event.Url,
-		Date: time.Now(),
+		Date: event.Date,
 	}
 
 	if err := p.storage.Save(&photoMessage); err != nil {

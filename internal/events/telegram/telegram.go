@@ -2,6 +2,7 @@ package telegram
 
 import (
 	"fmt"
+	"time"
 
 	"github.com/kolllaka/telegram_bot/internal/clients/telegram"
 	"github.com/kolllaka/telegram_bot/internal/events"
@@ -114,6 +115,7 @@ func (p *processor) event(upd telegram.Update) events.Event {
 	res := events.Event{
 		Type: updType,
 		Text: fetchText(upd),
+		Date: fetchTime(upd),
 	}
 
 	switch updType {
@@ -156,4 +158,8 @@ func fetchText(upd telegram.Update) string {
 	}
 
 	return upd.Message.Text
+}
+
+func fetchTime(upd telegram.Update) time.Time {
+	return time.Unix(int64(upd.Message.Date), 0)
 }

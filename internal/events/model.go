@@ -1,6 +1,9 @@
 package events
 
-import "errors"
+import (
+	"errors"
+	"time"
+)
 
 var (
 	ErrUnknownEventType = errors.New("unknown event type")
@@ -29,4 +32,5 @@ type Event struct {
 	Url  string
 	Text string
 	Meta any
+	Date time.Time
 }
